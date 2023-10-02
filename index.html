@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <title></title>
+</head>
+<body>
+	<h1>HELLOOOOO LOVE!! WHEHSHHEHSH</h1>
+	<p>Click the button to reveal the surprise </p>
+	<button id="btn" onclick="revealCats()">CLICK ME</button>
+	<div id="picBox" >
+	 <div class="pics">
+	   <img src="./img/cat.gif">
+	  	  <img src="./img/catKiss-cat.gif">
+	  	  	  <img src="./img/cat1.gif">
+	  	  	  	  <img src="./img/cat2.gif">
+	 </div>
+	 <h3>CUTE CATS FOR U!!!!! </h3>
+	 <p>These cute cats reminds you always to be strong and everything will be alright!! </p>
+	</div>
+	
+	<style>
+	
+	h3{
+	  display: flex;
+	  justify-content: center;
+	}
+	
+	#picBox{
+	  display: none;
+	  
+	} 
+	 .pics{
+	    display: flex;
+	    flex-wrap: wrap;
+	    padding: 5px 5px;
+	    justify-content: center;
+	  }
+	  
+	 .pics img{
+	    height: 100px;
+	    width: 150px;
+	    padding: 5px 5px;
+	  } 
+	  
+	  
+	</style>
+	
+	
+	<script>
+	  
+	  alert('HI MISS!! ')
+alert('GOOD EVENING!! ')
+alert('TIRED FROM SCHOOL?')
+alert("HERE'S A SURPRISE FOR U")
+
+const pics = document.getElementById('picBox');
+
+function revealCats(){
+  
+  pics.style.display = 'block';
+  
+}
+
+
+	  
+	</script>
+</body>
+</html>
